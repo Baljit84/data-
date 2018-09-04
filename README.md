@@ -1,4 +1,4 @@
-We have provided 
+We have provided various trained NoCs as follows:
 
 NoC trained with normal RGB intensity RPN features.
 
@@ -9,6 +9,8 @@ NoC trained with blur RPN features. https://drive.google.com/open?id=10t_33MNNWH
 NoC trained with multimodal RGB RPN features. https://drive.google.com/open?id=1wjup5i4irYWXGyVtnNq7Igp0DRqKRs3d
 
 NoC trained with multimodal blur RPN features. https://drive.google.com/open?id=1MzgllH1jVKNiJxFx-IwQ8ID-O21Vf-eC
+
+We have provided different datasets:
 
 Data set of blur RPN features is available in 3 parts.
 
@@ -33,3 +35,5 @@ https://drive.google.com/open?id=11kUR_5A3H4TVn0iIZoEyPSl4QtCbeNjf
 https://drive.google.com/open?id=1TbEuPb0Iq0poPhtABP7SLpM9FeTZbRpJ 
 
 https://drive.google.com/open?id=1TbEuPb0Iq0poPhtABP7SLpM9FeTZbRpJ
+
+We have provided lua file for creating different architectures of the networks.
