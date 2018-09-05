@@ -37,3 +37,9 @@ https://drive.google.com/open?id=1TbEuPb0Iq0poPhtABP7SLpM9FeTZbRpJ
 https://drive.google.com/open?id=1TbEuPb0Iq0poPhtABP7SLpM9FeTZbRpJ
 
 We have provided lua file for creating different architectures of the networks.
+
+0C3fc means network with no convolutional layer and 3 fully connected layers.
+
+1C3fc means network with 1 convolutional layer and 3 fully connected layers.
+
+1M1 means network with 1 convolutional layer, 1 max pool layer then again 1 convolutional layer and 3 fully connected layers.
