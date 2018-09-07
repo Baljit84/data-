@@ -34,7 +34,7 @@ NoC trained with multimodal blur RPN features. https://drive.google.com/open?id=
 
 For training data set was divided into three parts. We have provided different features of these datasets:
 
-### Data set of blur RPN features is available in 3 parts.
+Data set of blur RPN features is available in 3 parts.
 
 https://drive.google.com/open?id=1R-pxz3iGWADe9OWlUMl_zcZt9OWscUgg 
 
