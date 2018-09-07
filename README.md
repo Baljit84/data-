@@ -4,6 +4,8 @@ Fused feature can be Computed by providing optical flow features and RGB data to
 
 https://drive.google.com/open?id=1GMdYVYEdvF6daePq7Cu3UdbrugNp8lIZ
 
+Its lua file is attached named nettot.lua
+
 In this two types of data can be forwarded to net using (net:forward(input1, input2)), This will generate the fused output which can further be passed to Region proposal network(RPN) and RPN features can be given as input to our created NoCs. 
 
 ## NoCs
@@ -55,5 +57,3 @@ We have provided lua file for creating different architectures of the networks.
 1C3fc means network with 1 convolutional layer and 3 fully connected layers.
 
 1M1 means network with 1 convolutional layer, 1 max pool layer then again 1 convolutional layer and 3 fully connected layer.
-
-Foolowing is the net in which two types of data can be passed such as RGB and optical flow, it will fuse the features of the two.
