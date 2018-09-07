@@ -22,6 +22,14 @@ NoC trained with multimodal RGB RPN features. https://drive.google.com/open?id=1
 
 NoC trained with multimodal blur RPN features. https://drive.google.com/open?id=1MzgllH1jVKNiJxFx-IwQ8ID-O21Vf-eC
 
+### We have provided lua file for creating different architectures of the networks.
+
+0C3fc means network with no convolutional layer and 3 fully connected layers.
+
+1C3fc means network with 1 convolutional layer and 3 fully connected layers.
+
+1M1 means network with 1 convolutional layer, 1 max pool layer then again 1 convolutional layer and 3 fully connected layer.
+
 ## DATA SETS
 
 For training data set was divided into three parts. We have provided different features of these datasets:
@@ -49,11 +57,3 @@ https://drive.google.com/open?id=11kUR_5A3H4TVn0iIZoEyPSl4QtCbeNjf
 https://drive.google.com/open?id=1TbEuPb0Iq0poPhtABP7SLpM9FeTZbRpJ 
 
 https://drive.google.com/open?id=1TbEuPb0Iq0poPhtABP7SLpM9FeTZbRpJ
-
-We have provided lua file for creating different architectures of the networks.
-
-0C3fc means network with no convolutional layer and 3 fully connected layers.
-
-1C3fc means network with 1 convolutional layer and 3 fully connected layers.
-
-1M1 means network with 1 convolutional layer, 1 max pool layer then again 1 convolutional layer and 3 fully connected layer.
