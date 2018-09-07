@@ -1,4 +1,14 @@
-We have provided various trained NoCs as follows:
+## Fused Net
+
+Fused feature can be Computed by providing optical flow features and RGB data to the following net
+
+https://drive.google.com/open?id=1GMdYVYEdvF6daePq7Cu3UdbrugNp8lIZ
+
+In this two types of data can be forwarded to net using (net:forward(input1, input2)), This will generate the fused output which can further be passed to Region proposal network(RPN) and RPN features can be given as input to our created NoCs. 
+
+## NoCs
+
+### We have provided various trained NoCs as follows:
 
 NoC trained with normal RGB intensity RPN features.
 
@@ -10,9 +20,11 @@ NoC trained with multimodal RGB RPN features. https://drive.google.com/open?id=1
 
 NoC trained with multimodal blur RPN features. https://drive.google.com/open?id=1MzgllH1jVKNiJxFx-IwQ8ID-O21Vf-eC
 
+## DATA SETS
+
 For training data set was divided into three parts. We have provided different features of these datasets:
 
-Data set of blur RPN features is available in 3 parts.
+### Data set of blur RPN features is available in 3 parts.
 
 https://drive.google.com/open?id=1R-pxz3iGWADe9OWlUMl_zcZt9OWscUgg 
 
