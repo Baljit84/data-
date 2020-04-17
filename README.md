@@ -1,3 +1,5 @@
+The fine tuned networks for object detection and classification have been uploaded. These can be used for testing purposes.
+
 ## Fused Net
 
 Fused feature can be Computed by providing optical flow features and RGB data to the following net
